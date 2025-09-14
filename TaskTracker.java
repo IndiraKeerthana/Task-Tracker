@@ -48,9 +48,9 @@ public class TaskTracker {
 
         if (index >= 0 && index < tasks.size()) {
             tasks.remove(index);
-            System.out.println("🗑️ Task deleted!\n");
+            System.out.println("Task deleted!\n");
         } else {
-            System.out.println("⚠️ Invalid task number.\n");
+            System.out.println("Invalid task number.\n");
         }
     }
     
