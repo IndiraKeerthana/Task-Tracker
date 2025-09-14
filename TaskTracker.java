@@ -12,7 +12,7 @@ public class TaskTracker {
         System.out.print("Enter task description: ");
         String description = scanner.nextLine();
         tasks.add(new Task(title, description));
-        System.out.println("✅ Task added!\n");
+        System.out.println("Task added!\n");
     }
 
     public static void main(String[] args) {
