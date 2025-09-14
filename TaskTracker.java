@@ -40,6 +40,19 @@ public class TaskTracker {
             System.out.println("Invalid task number.\n");
         }
     }
+    //delete task
+    public static void deleteTask() {
+        viewTasks();
+        System.out.print("Enter task number to delete: ");
+        int index = Integer.parseInt(scanner.nextLine()) - 1;
+
+        if (index >= 0 && index < tasks.size()) {
+            tasks.remove(index);
+            System.out.println("🗑️ Task deleted!\n");
+        } else {
+            System.out.println("⚠️ Invalid task number.\n");
+        }
+    }
     
 }
 
