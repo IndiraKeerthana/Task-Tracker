@@ -18,10 +18,10 @@ public class TaskTracker {
     //View tasks
     public static void viewTasks() {
         if (tasks.isEmpty()) {
-            System.out.println("📭 No tasks available.\n");
+            System.out.println("No tasks available.\n");
             return;
         }
-        System.out.println("📋 All Tasks:");
+        System.out.println("All Tasks:");
         
         for (int i = 0; i < tasks.size(); i++) {
             System.out.println("[" + (i + 1) + "] " + tasks.get(i));
