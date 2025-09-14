@@ -1,9 +1,9 @@
 Task Tracker
-TaskTracker – A simple Java console application to manage tasks efficiently.
+A simple Java console application to manage tasks efficiently.
 
-Features
+* Features
 
-Add Task – Add new tasks with a title and description.
-View Tasks – Display all tasks with their status (Complete/Incomplete).
-Complete Task – Mark tasks as complete to track progress.
-Delete Task – Remove tasks from the list when no longer needed.
+1. Add Task – Add new tasks with a title and description.
+2. View Tasks – Display all tasks with their status (Complete/Incomplete).
+3. Complete Task – Mark tasks as complete to track progress.
+4. Delete Task – Remove tasks from the list when no longer needed.
